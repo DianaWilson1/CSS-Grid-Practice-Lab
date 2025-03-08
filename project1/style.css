@@ -1,0 +1,165 @@
+body {
+    background: #F2F2F2;
+}
+
+.first {
+    background: #000000;
+    color: white;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    font-size: large;
+    border-radius: 5px;
+    margin: 40px;
+    
+}
+
+.second {
+    background: local;
+    color: #000000;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.dark {
+    background-color: #000000;
+    width: 270px;
+    height: 270px;
+    align-content: center;
+}
+
+.white {
+    background-color: #F2F2F2;
+    width: 64px;
+    height: 64px;
+    margin-left: 100px;
+    border-radius: 10px;
+
+}
+
+.demo {
+    background-color: white;
+    width: 270px;
+    height: 166px;
+    top: 270px;
+
+}
+
+.text {
+    color: #000000;
+    font: 20px;
+    padding: 30px;
+    left: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.mini {
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    padding-top: 50px;
+}
+
+.box1 {
+    padding-left: 39px;
+    padding-top: 30px;
+    /* grid-row: 1; */
+}
+
+/* ------------------------------------------ */
+.everything {
+    display: flex;
+    gap: 10px;
+    /* display: grid; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ---------------------------------------------- */
+.black {
+    background-color: black;
+    width: 54px;
+    height: 54px;
+    border-radius: 90px;
+    /* position: absolute; */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.butn {
+    width: 160px;
+    height: 40px;
+    background: local;
+    border-radius: 5px;
+    margin-left: 55px;
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    color: #00000080;
+
+}
+
+.box2 {
+    width: 270px;
+    height: 420px;
+    border-radius: 2px;
+    border-width: 1px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 30px;
+
+
+}
+/* ------------------------------------------------ */
+.bobo{
+    width: 370px;
+height: 370px;
+background-color: black;
+}
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;;
+    font-size:larger
+}
+.text2{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+}
+.box3{
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
