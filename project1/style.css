@@ -8,7 +8,7 @@ body {
     color: white;
     width: 200px;
     height: 60px;
-    display: grid; /* Changed from flex to grid */
+    display: grid; 
     place-items: center;
     font-size: large;
     border-radius: 5px;
@@ -20,7 +20,7 @@ body {
     color: #000000;
     width: 200px;
     height: 60px;
-    display: grid; /* Changed from flex to grid */
+    display: grid; 
     place-items: center;
     font-size: large;
     border-radius: 5px;
@@ -30,7 +30,7 @@ body {
     background-color: #000000;
     width: 270px;
     height: 270px;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
     place-items: center;
 }
 
@@ -39,7 +39,7 @@ body {
     width: 64px;
     height: 64px;
     border-radius: 10px;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
     place-items: center;
 }
 
@@ -48,7 +48,7 @@ body {
     width: 270px;
     height: 166px;
     top: 270px;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
 }
 
 .text {
@@ -70,18 +70,17 @@ body {
 .box1 {
     padding-left: 39px;
     padding-top: 30px;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
 }
 
 .everything {
-    display: grid; /* Changed from flex to grid */
-    gap: 70px; /* Added space between items */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Added grid layout */
+    display: grid;
+    gap: 70px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     justify-items: center;
     align-items: center;
 }
 
-/* ---------------------------------------------- */
 .black {
     background-color: black;
     width: 54px;
@@ -89,7 +88,7 @@ body {
     border-radius: 90px;
     margin: 0 auto;
     margin-top: 30px;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
     place-items: center;
 }
 
@@ -99,28 +98,28 @@ body {
     background: local;
     border-radius: 5px;
     margin-left: 55px;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
     place-items: center;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
     justify-items: center;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
     justify-items: center;
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
     justify-items: center;
     color: #00000080;
 }
@@ -134,14 +133,14 @@ h3 {
     border: 1px solid black;
     margin-left: 50px;
     margin-top: 30px;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
 }
 
 .bobo {
     width: 370px;
     height: 370px;
     background-color: black;
-    display: grid; /* Changed from flex to grid */
+    display: grid;
     place-items: center;
 }
 
@@ -164,9 +163,9 @@ h3 {
 }
 
 .buttons {
-    display: grid; /* Changed from flex to grid */
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); /* Added grid layout */
-    gap: 50px; /* Added space between items */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 50px;
     justify-items: center;
     align-items: center;
 }
